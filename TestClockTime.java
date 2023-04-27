@@ -37,7 +37,12 @@ public class TestClockTime
         System.out.println("clock2 time using 12-hour clock: "
                     + clock2.toString12());
         System.out.println();
-        
+        //make a third clock
+	ClockTime clock3 = new ClockTime(12, 20,30);
+	System.out.println("clock3 has time: " + clock3.toString());
+	System.out.println("clock3 time using 12-hour clock: "
+                    + clock3.toString12());
+
         // see if clock1 and clock2 are holding the same time
         printEquals(clock1,clock2);
             

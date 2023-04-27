@@ -42,7 +42,7 @@ public class TestClockTime
 	System.out.println("clock3 has time: " + clock3.toString());
 	System.out.println("clock3 time using 12-hour clock: "
                     + clock3.toString12());
-
+        System.out.println("clock3 hours: " + clock3.getHour());
         // see if clock1 and clock2 are holding the same time
         printEquals(clock1,clock2);
             
